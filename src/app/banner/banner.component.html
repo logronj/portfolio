@@ -1,0 +1,26 @@
+<section class="hero is-dark is-fullheight has-bg-image">
+    <div class="hero-head">
+        <navbar></navbar>
+    </div>
+    <div class="hero-body">
+        <div class="container">
+            <p class="subtitle is-5 has-text-weight-light">I'm a</p>
+            <h1 class="title">{{data.basics.label}}</h1>
+            <h2 class="subtitle">
+                {{data.basics.location.region}} , {{data.basics.location.country}}
+            </h2>
+        </div>
+    </div>
+    <div class="hero-foot" style="padding-bottom: 20px">
+        <div class="columns is-mobile">
+          <div class="column"></div>
+            <div class="column has-text-centered" *ngFor="let profile of profiles">
+                <a [href]="profile.url" target="blank" class="has-text-white" [title]="profile.network">
+                  <span class="icon is-medium " [class]="profile.x_icon"></span>
+                </a>
+                
+            </div>
+          <div class="column"></div>
+        </div>
+      </div>
+</section>

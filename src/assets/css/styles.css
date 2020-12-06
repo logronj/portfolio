@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bulma/css/bulma.min.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+.has-bg-image{
+    background-image: url("../images/fb_prof3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.is-180x180{
+    height: 180px;
+    width: 180px;
+}
+
+.summary-text{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 36em;
+}
+
+.interests{
+    display: flex;
+    justify-content: center;
+}

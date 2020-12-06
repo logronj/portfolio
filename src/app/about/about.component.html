@@ -1,0 +1,23 @@
+<section class="section has-background-link" id="aboutMe">
+    <div class="container has-text-centered">
+        <figure class="image container is-180x180">
+            <img [src]="data.basics.picture" [alt]="data.basics.name" class="is-rounded">
+
+        </figure>
+        <p class="subtitle is-4 has-text-white has-text-weight-bold">{{data.basics.x_title}}</p>
+        <p class="subtitle is-5 has-text-white has-text-weight-light summary-text">{{data.basics.summary}}</p>
+
+        <div class="container interests">
+            <div class="field is-grouped is-grouped-multiline has-text-centered">
+                <div class="control" *ngFor="let interest of interests">
+                    <div class="tags has-addons">
+                        <span class="tag is-dark">{{interest.name}}</span>
+                        <span class="tag is-success"><i class="fas fa-1x" [class]="interest.x_icon"></i></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>

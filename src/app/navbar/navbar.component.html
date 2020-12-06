@@ -1,0 +1,44 @@
+<nav class="navbar is-transparent">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        {{data.basics.name}}
+      </a>
+
+      <a role="button" 
+      #navBurger 
+      role="button" 
+      class="navbar-burger" 
+      aria-label="menu" 
+      aria-expanded="false"
+      (click)="toggleNavbar()">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu" #navMenu>
+      <div class="navbar-end">
+
+        <a class="navbar-item" href="#aboutMe">
+          About Me
+        </a>
+        <a class="navbar-item" href="#skills" >
+          Skills
+        </a>
+        <a class="navbar-item" href="#experience">
+          Experience
+        </a>
+        <a class="navbar-item" href="#articles">
+          Articles
+        </a>
+        <a class="navbar-item" href="#contact">
+          Contact
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+</nav>
