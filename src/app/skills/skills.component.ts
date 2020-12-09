@@ -9,6 +9,10 @@ import Resume from '../resume.json';
 export class SkillsComponent implements OnInit {
 
   data = Resume;
+  frontend = Resume.skills.filter(x=>x.key === 'frontend');
+  backend = Resume.skills.filter(x=>x.key === 'backend');
+  database = Resume.skills.filter(x=>x.key === 'database');
+  devops = Resume.skills.filter(x=>x.key === 'devops');
 
   constructor() { }
 

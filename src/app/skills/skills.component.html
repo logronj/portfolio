@@ -1,11 +1,63 @@
-<section class="section">
+<section id="skills">
     <div class="container">
+        <h1 class="title">Skills</h1>
+        <h1 class="is-size-4 has-text-centered m-6 has-text-weight-bold is-family-sans-serif">FRONT-END</h1>
         <div class="columns">
-            <div class="column">
-                <figure class="image is-128x128">
-                    <img [src]="data.skills[1].logo" alt="springboot">
-                </figure>
+            <div class="column" *ngFor="let x of frontend">
+                <div class="card">
+                    <div class="card-image has-text-centered">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img [src]="x.logo" [alt]="x.name">
+                            <a href="#">{{x.name}}</a>
+                        </figure>
+                    </div>
+                </div>
             </div>
         </div>
+        <!--BACKEND-->
+        <h1 class="is-size-4 has-text-centered m-6 has-text-weight-bold is-family-sans-serif">BACK-END</h1>
+        <div class="columns">
+            <div class="column" *ngFor="let x of backend">
+                <div class="card">
+                    <div class="card-image has-text-centered">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img [src]="x.logo" [alt]="x.name">
+                            <a href="#">{{x.name}}</a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--DATABASE-->
+        <h1 class="is-size-4 has-text-centered m-6 has-text-weight-bold is-family-sans-serif">DATABASE</h1>
+        <div class="columns">
+            <div class="column" *ngFor="let x of database">
+                <div class="card">
+                    <div class="card-image has-text-centered">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img [src]="x.logo" [alt]="x.name">
+                            <a href="#">{{x.name}}</a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--DEVOPS-->
+        <h1 class="is-size-4 has-text-centered m-6 has-text-weight-bold is-family-sans-serif">DEVOPS</h1>
+        <div class="columns">
+            <div class="column" *ngFor="let x of devops">
+                <div class="card">
+                    <div class="card-image has-text-centered">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img [src]="x.logo" [alt]="x.name">
+                            <a href="#">{{x.name}}</a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>

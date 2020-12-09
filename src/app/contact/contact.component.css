@@ -1,0 +1,17 @@
+.contact-centered{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} 
+
+
+.has-contact-image{
+    background-image: url("~/src/assets/images/contact.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.input.ng-touched.ng-invalid, textarea.ng-touched.ng-invalid{
+    border: 2px solid red;
+}

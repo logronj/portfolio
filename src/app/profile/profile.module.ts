@@ -12,6 +12,8 @@ import { SkillsComponent } from '../skills/skills.component';
 import { ExperienceComponent } from '../experience/experience.component';
 import { ProjectsComponent } from '../projects/projects.component';
 import { FooterComponent } from '../footer/footer.component';
+import { ContactComponent } from '../contact/contact.component';
+import { EducationComponent } from '../education/education.component';
 
 
 @NgModule({
@@ -31,7 +33,10 @@ import { FooterComponent } from '../footer/footer.component';
     SkillsComponent,
     ExperienceComponent,
     ProjectsComponent,
+    EducationComponent,
+    ContactComponent,
     FooterComponent,
+    
 
   ],
   providers: [

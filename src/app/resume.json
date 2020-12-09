@@ -62,156 +62,120 @@
       }
   ],
   "skills": [
-      {
-          "name": "Java Core",
-          "level": "Intermediate",
-          "logo" : "assets/images/java.png",
-          "keywords": [
-              "Software Developer"
-          ]
-      },
-      {
-          "name": "SpringBoot",
-          "level": "Intermediate",
-          "logo" : "assets/images/springboot.png",
-          "keywords": [
-              "Software Developer"
-          ]
-      },
-      {
-          "name": "AngularJS",
-          "level": "Intermediate",
-          "logo" : "assets/images/angularjs.png",
-          "keywords": [
-              "Software Developer"
-          ]
-      },
-      {
-          "name": "Angular 10",
-          "level": "Intermediate",
-          "logo" : "assets/images/angular.png",
-          "keywords": [
-              "Software Developer"
-          ]
-      },
-      {
-          "name": "Object Oriented Programming",
-          "level": "Advanced",
-          "logo" : "assets/images/oop.png",
-          "keywords": [
-              "Software Developer"
-          ]
-      },
-      {
-          "name": "Design Patterns",
-          "level": "Intermediate",
-          "logo" : "assets/images/design-patterns.png",
-          "keywords": [
-              "Software Developer"
-          ]
-      },
-      {
-          "name": "Git",
-          "level": "Intermediate",
-          "logo" : "assets/images/git.png",
-          "keywords": [
-              "Software Developer"
-          ]
-      },
-      {
-          "name": "Unit Testing",
-          "level": "Intermediate",
-          "keywords": [
-              "Software Developer"
-          ]
-      },
-      {
-          "name": "MySQL",
-          "level": "Intermediate",
-          "logo" : "assets/images/mysql.png",
-          "keywords": [
-              "Software Developer"
-          ]
-      },
-      {
-          "name": "Oracle",
-          "level": "Intermediate",
-          "logo" : "assets/images/oracle.png",
-          "keywords": [
-              "Software Developer"
-          ]
-      },
-      {
+
+    {
+        "name": "Angular 10",
+        "level": "Intermediate",
+        "logo" : "assets/images/angular10.png",
+        "key": "frontend"
+    },
+    {
+        "name": "Javascript",
+        "level": "Intermediate",
+        "logo" : "assets/images/js.png",
+        "key": "frontend"
+    },
+    {
         "name": "Html5",
-        "level": "Advanced",
+        "level": "Intermediate",
         "logo" : "assets/images/html5.png",
-        "keywords": [
-            "Software Developer"
-        ]
+        "key": "frontend"
     },
     {
         "name": "Css3",
-        "level": "Advanced",
+        "level": "Intermediate",
         "logo" : "assets/images/css3.png",
-        "keywords": [
-            "DevOps"
-        ]
+        "key": "frontend"
     },
+   
     {
         "name": "Bootstrap",
         "level": "Intermediate",
         "logo" : "assets/images/bootstrap.png",
-        "keywords": [
-            "DevOps"
-        ]
+        "key": "frontend"
+    },
+    
+    {
+        "name": "SpringBoot",
+        "level": "Intermediate",
+        "logo" : "assets/images/springboot.png",
+        "key": "backend"
     },
     {
-        "name": "Bulma",
+        "name": "Java Core",
         "level": "Intermediate",
-        "logo" : "assets/images/bulma.png",
-        "keywords": [
-            "DevOps"
-        ]
+        "logo" : "assets/images/java.png",
+        "key": "backend"
+    },
+    {
+        "name": "JPA-Hibernate",
+        "level": "Intermediate",
+        "logo" : "assets/images/jpa-hibernate.png",
+        "key": "backend"
+    },
+    {
+        "name": "Oop",
+        "level": "Advanced",
+        "logo" : "assets/images/oop.png",
+        "key": "backend"
+    },
+    {
+        "name": "Mybatis",
+        "level": "Intermediate",
+        "logo" : "assets/images/mybatis.png",
+        "key": "backend"
+    },
+    {
+        "name": "MySQL",
+        "level": "Intermediate",
+        "logo" : "assets/images/mysql.png",
+        "key": "database"
+    },
+    {
+        "name": "Oracle",
+        "level": "Intermediate",
+        "logo" : "assets/images/oracle.png",
+        "key": "database"
+    },
+
+      
+      {
+          "name": "Unit Testing",
+          "level": "Intermediate",
+          "key": [
+              "Software Developer"
+          ]
+      },
+
+    {
+        "name": "Git",
+        "level": "Intermediate",
+        "logo" : "assets/images/git.png",
+        "key": "devops"
     },
       {
           "name": "Jenkins",
           "level": "Basic",
           "logo" : "assets/images/jenkins.png",
-          "keywords": [
-              "DevOps"
-          ]
+          "key": "devops"
       },
       {
           "name": "Linux",
           "level": "Basic",
           "logo" : "assets/images/linux.png",
-          "keywords": [
-              "DevOps"
-          ]
+          "key": "devops"
       },
       {
           "name": "Docker",
           "level": "Basic",
           "logo" : "assets/images/docker.png",
-          "keywords": [
-              "DevOps"
-          ]
+          "key": "devops"
       },
       {
           "name": "Heroku",
           "level": "Basic",
           "logo" : "assets/images/heroku.png",
-          "keywords": [
-              "DevOps"
-          ]
-      },
-      {
-          "name": "Troubleshooting",
-          "level": "Advanced",
-          "logo" : "assets/images/trouble-shooting.png",
-          "keywords": [
-              "DevOps"
-          ]
+          "key": "devops"
       }
   ],
   "languages": [
@@ -246,7 +210,7 @@
           "x_icon": "fa-chess"
       },
       {
-          "name": "Gamer",
+          "name": "Games",
           "x_icon": "fa-gamepad"
       }
   ]

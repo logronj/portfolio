@@ -1,0 +1,80 @@
+<div class="section has-contact-image is-medium" id="contact">
+  <div class="container">
+    <div class="tile is-parent contact-centered">
+        <article class="tile notification is-child is-6">
+          <p class="title has-text-centered">Contact Me</p>
+          <form action="">
+              <div class="field">
+                <label class="label required">Name</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input 
+                  minlength="3"
+                  maxlength="20"
+                  name="name"
+                  #name="ngModel" 
+                  ngModel  
+                  class="input"
+                   type="text" 
+                   placeholder="Your name" 
+                   required
+                   (change)="log(name)">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <p class="help is-danger" *ngIf="name.touched && name.errors?.required">Name is required</p>
+                  <p class="help is-danger" *ngIf="name.touched && name.errors?.minlength">
+                    Required Length: {{name.errors?.minlength.requiredLength}}, Actual: {{name.errors?.minlength.actualLength}}</p>
+                </div>
+              </div>
+              
+              <div class="field">
+                <label class="label required">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input
+                  class="input"
+                  type="email" 
+                  placeholder="Your email" 
+                  required
+                  name="email"
+                  ngModel
+                  #email="ngModel"
+                  maxlength="30"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                  >
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <div class="help is-danger" *ngIf="email.touched && email.errors?.required">Email is required</div>
+                  <div class="help is-danger" *ngIf="email.touched && email.errors?.pattern">Invalid Email</div>
+
+                </div>
+              </div>
+              
+              <div class="field">
+                <label class="label required">Message</label>
+                <div class="control">
+                  <textarea 
+                  class="textarea" 
+                  placeholder="Your Message"
+                  required
+                  name="message"
+                  ngModel
+                  #message="ngModel"
+                  maxlength="100"
+                  ></textarea>
+                  <div class="help is-danger" *ngIf="message.touched && message.errors?.required">Message is required.</div>
+                </div>
+              </div>
+              
+              <div class="field is-grouped">
+                <div class="control">
+                  <button class="button is-link">Send</button>
+                </div>
+              </div>
+          </form>
+        </article>
+      </div>
+  </div>
+</div>
+
+

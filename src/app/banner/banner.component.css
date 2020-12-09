@@ -1,0 +1,6 @@
+.has-bg-image{
+    background-image: url("~/src/assets/images/fb_prof3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
