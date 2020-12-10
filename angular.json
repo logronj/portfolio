@@ -24,10 +24,14 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/aos/dist/aos.css",
               "node_modules/bulma-timeline/dist/css/bulma-timeline.min.css",
+              "node_modules/ngx-toastr/toastr.css",
               "src/assets/css/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -3,7 +3,7 @@
     <div class="tile is-parent contact-centered">
         <article class="tile notification is-child is-6">
           <p class="title has-text-centered">Contact Me</p>
-          <form action="">
+          <form (ngSubmit)="submit(f)" #f="ngForm" data-aos="zoom-in" data-aos-duration="2000">
               <div class="field">
                 <label class="label required">Name</label>
                 <div class="control has-icons-left has-icons-right">
@@ -17,7 +17,7 @@
                    type="text" 
                    placeholder="Your name" 
                    required
-                   (change)="log(name)">
+                   >
                   <span class="icon is-small is-left">
                     <i class="fas fa-user"></i>
                   </span>

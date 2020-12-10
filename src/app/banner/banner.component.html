@@ -1,16 +1,17 @@
-<section class="hero is-dark is-fullheight has-bg-image">
+<section class="hero is-dark is-fullheight has-bg-image" id="banner">
     <div class="hero-head">
         <navbar></navbar>
     </div>
     <div class="hero-body">
-        <div class="container">
+        <div class="container" [@bounce]="bounce">
             <p class="subtitle is-5 has-text-weight-light">I'm a</p>
             <h1 class="title">{{data.basics.label}}</h1>
             <h2 class="subtitle">
                 {{data.basics.location.region}} , {{data.basics.location.country}}
             </h2>
-            <a href="#contact" class="button is-info is-outlined">Hire Me</a>
-            <a href="#" class="button is-success is-outlined ml-3">Download CV</a>
+            <a href="#contact" class="button is-info is-outlined mr-1">Hire Me</a>
+            <a href="https://drive.google.com/file/d/1I5ZVYSdVY2rpBROJG4Bz1B630HGLctE_/view?usp=sharing" target="_blank"
+            class="button is-success is-outlined ml-3" data-aos="zoom-in">Download CV</a>
         </div>
     </div>
     <div class="hero-foot" style="padding-bottom: 20px">

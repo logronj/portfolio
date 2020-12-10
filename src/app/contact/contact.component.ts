@@ -1,6 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { HttpHeaders} from '@angular/common/http';
+import { ToastrService } from 'ngx-toastr';
+import { EmailService } from '../common/email.service';
+import { NotFoundError } from '../common/notfound.error';
+
+import * as AOS from 'aos';
+
+
 
 @Component({
   selector: 'contact',
@@ -11,25 +17,40 @@ import { HttpHeaders} from '@angular/common/http';
  
     model: any = {};
   
-    constructor(
-      // private http: HttpClient
-    ){}
+    constructor(private emailService: EmailService, private toastr: ToastrService){
+    }
   
     ngOnInit() {
+      AOS.init();
        }
        
-    onSubmit(name, subject, email, message) {
-          // const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-          // this.http.post('https://formspree.io/f/mwkwpzve',
-          //   { name: name, subject: subject, replyto: email, message: message },
-          //   { 'headers': headers }).subscribe(
-          //     response => {
-          //       console.log(response);
-          //     }
-          //   );
+    submit(f) {
+
+          if(f.valid){
+            const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+            const formData = { name: name, subject: f.value.subject, replyto: f.value.email, message: f.value.message };
+            const url = 'https://formspree.io/f/xgepnyoq';
+            this.sendEmail(url, formData,headers);
+          }else{
+            this.toastr.error('Please fillup required fields')
+          }
     }  
 
-    log(event){
-      console.log(event);
+    private sendEmail(url,formData,headers){
+
+      this.emailService.sendEmail(url,formData,{ 'headers': headers })
+        .subscribe(
+          () => {
+            this.toastr.success('Email Sent!');
+          },
+          err=>{
+            if(err instanceof NotFoundError)
+              this.toastr.error('404 Not Found')
+            else  
+              this.toastr.error('Internal Server error')
+          }
+        );
     }
+
+
 }

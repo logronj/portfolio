@@ -64,9 +64,9 @@
   "skills": [
 
     {
-        "name": "Angular 10",
+        "name": "Angular",
         "level": "Intermediate",
-        "logo" : "assets/images/angular10.png",
+        "logo" : "assets/images/angular.png",
         "key": "frontend"
     },
     {

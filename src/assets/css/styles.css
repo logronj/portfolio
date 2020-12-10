@@ -5,7 +5,9 @@ html {
     scroll-behavior: smooth;
 }
 
-
+.bg-primary {
+    background-color: #00334D !important;
+  }
 
 
 
