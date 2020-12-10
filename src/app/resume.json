@@ -67,115 +67,124 @@
         "name": "Angular",
         "level": "Intermediate",
         "logo" : "assets/images/angular.png",
-        "key": "frontend"
+        "key": "frontend",
+        "url": "https://angular.io/"
     },
     {
         "name": "Javascript",
         "level": "Intermediate",
         "logo" : "assets/images/js.png",
-        "key": "frontend"
+        "key": "frontend",
+        "url": "https://www.javascript.com/"
     },
     {
         "name": "Html5",
         "level": "Intermediate",
         "logo" : "assets/images/html5.png",
-        "key": "frontend"
+        "key": "frontend",
+        "url": "https://en.wikipedia.org/wiki/HTML5"
     },
     {
         "name": "Css3",
         "level": "Intermediate",
         "logo" : "assets/images/css3.png",
-        "key": "frontend"
+        "key": "frontend",
+        "url": "https://en.wikipedia.org/wiki/CSS"
+
     },
    
     {
         "name": "Bootstrap",
         "level": "Intermediate",
         "logo" : "assets/images/bootstrap.png",
-        "key": "frontend"
+        "key": "frontend",
+        "url": "https://getbootstrap.com/"
     },
     
     {
         "name": "SpringBoot",
         "level": "Intermediate",
         "logo" : "assets/images/springboot.png",
-        "key": "backend"
+        "key": "backend",
+        "url": "https://spring.io/"
     },
     {
         "name": "Java Core",
         "level": "Intermediate",
         "logo" : "assets/images/java.png",
-        "key": "backend"
+        "key": "backend",
+        "url": ""
     },
     {
         "name": "JPA-Hibernate",
         "level": "Intermediate",
         "logo" : "assets/images/jpa-hibernate.png",
-        "key": "backend"
+        "key": "backend",
+        "url": "https://www.java.com/en/download/"
     },
     {
         "name": "Oop",
         "level": "Advanced",
         "logo" : "assets/images/oop.png",
-        "key": "backend"
+        "key": "backend",
+        "url": "https://en.wikipedia.org/wiki/Object-oriented_programming"
     },
     {
         "name": "Mybatis",
         "level": "Intermediate",
         "logo" : "assets/images/mybatis.png",
-        "key": "backend"
+        "key": "backend",
+        "url": "https://mybatis.org/mybatis-3/"
     },
     {
         "name": "MySQL",
         "level": "Intermediate",
         "logo" : "assets/images/mysql.png",
-        "key": "database"
+        "key": "database",
+        "url": "https://www.mysql.com/"
     },
     {
         "name": "Oracle",
         "level": "Intermediate",
         "logo" : "assets/images/oracle.png",
-        "key": "database"
+        "key": "database",
+        "url": "https://www.oracle.com/ph/index.html"
     },
-
-      
-      {
-          "name": "Unit Testing",
-          "level": "Intermediate",
-          "key": [
-              "Software Developer"
-          ]
-      },
 
     {
         "name": "Git",
         "level": "Intermediate",
         "logo" : "assets/images/git.png",
-        "key": "devops"
+        "key": "devops",
+        "url": "https://git-scm.com/"
     },
       {
           "name": "Jenkins",
           "level": "Basic",
           "logo" : "assets/images/jenkins.png",
-          "key": "devops"
+          "key": "devops",
+          "url": "https://www.jenkins.io/"
       },
       {
           "name": "Linux",
           "level": "Basic",
           "logo" : "assets/images/linux.png",
-          "key": "devops"
+          "key": "devops",
+          "url": "https://www.linux.org/"
       },
       {
           "name": "Docker",
           "level": "Basic",
           "logo" : "assets/images/docker.png",
-          "key": "devops"
+          "key": "devops",
+          "url": "https://www.docker.com/"
       },
       {
           "name": "Heroku",
           "level": "Basic",
           "logo" : "assets/images/heroku.png",
-          "key": "devops"
+          "key": "devops",
+          "url": "https://www.heroku.com/"
       }
   ],
   "languages": [
