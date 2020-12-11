@@ -7,6 +7,6 @@
 
 @media (max-width: 640px) { .has-bg-image 
     {
-    background: url(~/src/assets/images/fb_prof_mobile.png) center / cover;
+    background: url(~/src/assets/images/fb_prof_mobile_dark.png) center / cover;
     }
 }
