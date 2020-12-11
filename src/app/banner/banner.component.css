@@ -4,3 +4,9 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
+@media (max-width: 640px) { .has-bg-image 
+    {
+    background: url(~/src/assets/images/fb_prof_mobile.png) center / cover;
+    }
+}

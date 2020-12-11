@@ -4,28 +4,32 @@
         <h1 class="is-size-4 has-text-centered m-6 has-text-weight-bold is-family-sans-serif">FRONT-END</h1>
         <div class="columns">
             <div class="column" *ngFor="let x of frontend">
-                <div class="card">
-                    <div class="card-image has-text-centered">
-                        <figure class="image is-128x128 is-inline-block">
-                            <img [src]="x.logo" [alt]="x.name">
-                            <a [href]="x.url">{{x.name}}</a>
-                        </figure>
+                <a [href]="x.url" target="_blank">
+                    <div class="card">
+                        <div class="card-image has-text-centered">
+                            <figure class="image is-128x128 is-inline-block">
+                                <img [src]="x.logo" [alt]="x.name">
+                                <a [href]="x.url">{{x.name}}</a>
+                            </figure>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <!--BACKEND-->
         <h1 class="is-size-4 has-text-centered m-6 has-text-weight-bold is-family-sans-serif">BACK-END</h1>
         <div class="columns">
             <div class="column" *ngFor="let x of backend">
-                <div class="card">
-                    <div class="card-image has-text-centered">
-                        <figure class="image is-128x128 is-inline-block">
-                            <img [src]="x.logo" [alt]="x.name">
-                            <a [href]="x.url">{{x.name}}</a>
-                        </figure>
+                <a [href]="x.url" target="_blank">
+                    <div class="card">
+                        <div class="card-image has-text-centered">
+                            <figure class="image is-128x128 is-inline-block">
+                                <img [src]="x.logo" [alt]="x.name">
+                                <a [href]="x.url">{{x.name}}</a>
+                            </figure>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
@@ -33,14 +37,16 @@
         <h1 class="is-size-4 has-text-centered m-6 has-text-weight-bold is-family-sans-serif">DATABASE</h1>
         <div class="columns">
             <div class="column" *ngFor="let x of database">
-                <div class="card">
-                    <div class="card-image has-text-centered">
-                        <figure class="image is-128x128 is-inline-block">
-                            <img [src]="x.logo" [alt]="x.name">
-                            <a [href]="x.url">{{x.name}}</a>
-                        </figure>
+                <a [href]="x.url" target="_blank">
+                    <div class="card">
+                        <div class="card-image has-text-centered">
+                            <figure class="image is-128x128 is-inline-block">
+                                <img [src]="x.logo" [alt]="x.name">
+                                <a [href]="x.url">{{x.name}}</a>
+                            </figure>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
@@ -48,14 +54,16 @@
         <h1 class="is-size-4 has-text-centered m-6 has-text-weight-bold is-family-sans-serif">DEVOPS</h1>
         <div class="columns">
             <div class="column" *ngFor="let x of devops">
-                <div class="card">
-                    <div class="card-image has-text-centered">
-                        <figure class="image is-128x128 is-inline-block">
-                            <img [src]="x.logo" [alt]="x.name">
-                            <a [href]="x.url">{{x.name}}</a>
-                        </figure>
+                <a [href]="x.url" target="_blank">
+                    <div class="card">
+                        <div class="card-image has-text-centered">
+                            <figure class="image is-128x128 is-inline-block">
+                                <img [src]="x.logo" [alt]="x.name">
+                                <a [href]="x.url">{{x.name}}</a>
+                            </figure>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 

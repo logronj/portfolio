@@ -21,7 +21,7 @@
           {
               "network": "LinkedIn",
               "username": "logronj",
-              "url": "https://www.linkedin.com/in/logronj",
+              "url": "https://www.linkedin.com/in/janel-logroño-069873201/",
               "x_icon": "fab fa-2x fa-linkedin"
           },
           {
@@ -113,14 +113,14 @@
         "level": "Intermediate",
         "logo" : "assets/images/java.png",
         "key": "backend",
-        "url": ""
+        "url": "https://www.java.com/en/download/"
     },
     {
         "name": "JPA-Hibernate",
         "level": "Intermediate",
-        "logo" : "assets/images/jpa-hibernate.png",
+        "logo" : "assets/images/hibernate.png",
         "key": "backend",
-        "url": "https://www.java.com/en/download/"
+        "url": "https://hibernate.org/"
     },
     {
         "name": "Oop",

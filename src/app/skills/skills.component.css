@@ -1,3 +1,9 @@
 #skills{
     margin: 5em;
 }
+
+#skills .card:hover{
+    box-shadow: 8px 8px 5px #707070;    
+    transform: scale(1.1);
+    transition: .3s;
+}
