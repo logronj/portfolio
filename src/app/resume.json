@@ -159,13 +159,6 @@
         "url": "https://git-scm.com/"
     },
       {
-          "name": "Jenkins",
-          "level": "Basic",
-          "logo" : "assets/images/jenkins.png",
-          "key": "devops",
-          "url": "https://www.jenkins.io/"
-      },
-      {
           "name": "Linux",
           "level": "Basic",
           "logo" : "assets/images/linux.png",
